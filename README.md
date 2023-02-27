@@ -11,4 +11,9 @@ The scripts a re running on a rasperry pi
  - tell the prometheus node exporter to collect textfiles from the right directory:
     - put `NODE_EXPORTER_ARGS="--collector.textfile.directory /var/lib/node_exporter/"` into `/etc/conf.d/prometheus-node-exporter`
   - check if data is logged to prometheus
-  - configure grafana by importing the dashboard
+  - configure grafana by importing the dashboard from `grafana-dashboard.json`
+
+### The dashboard
+![what the dashboard looks like](https://user-images.githubusercontent.com/7593137/221596982-231df63c-a78f-4e70-814a-f9a1c361b5d7.png)
+
+
