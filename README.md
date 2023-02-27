@@ -1,6 +1,7 @@
 # deye-solar-dashboard
 
-Scripts to export data from a dee inverter with serial no 21xxxx through prometheus to a grafana dashboard
+Scripts to export data from a dee inverter with serial no 21xxxx through prometheus to a grafana dashboard.
+(Tested with firmware MW3_16U_5406_1.53 and MW3_15U)
 
 ### Setup
 The scripts a re running on a rasperry pi
