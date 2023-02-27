@@ -17,7 +17,7 @@ The scripts a re running on a rasperry pi
  - add your password for the inverter  and the inverters ip address to the `prometheus-exporter.sh`
  - tell the prometheus node exporter to collect textfiles from the right directory:
     - put `NODE_EXPORTER_ARGS="--collector.textfile.directory /var/lib/node_exporter/"` into `/etc/conf.d/prometheus-node-exporter`
-  - check if data is logged to prometheus
+  - check if data is logged to prometheus. (all are exported with a solar_ prefix
   - configure grafana by importing the dashboard from `grafana-dashboard.json`
 
 
