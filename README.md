@@ -20,5 +20,9 @@ The scripts a re running on a rasperry pi
   - check if data is logged to prometheus
   - configure grafana by importing the dashboard from `grafana-dashboard.json`
 
+
+### Other useful tools
+- [If you want to update your deye firmware offline](https://github.com/dasrecht/deye-firmware)
+
 ### Feedback
 let me know if you tried it and got improvements via the issues/PRs.
